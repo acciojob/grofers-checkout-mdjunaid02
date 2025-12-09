@@ -21,6 +21,7 @@ const getSum = () => {
 
 	const td=document.createElement("td");
 	td.colSpan=2;
+	td.id="ans";
 	td.innerText=sum;
 
 	tr.appendChild(td);
